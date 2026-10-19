@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Classic Beef Burger",
+        "price": 12,
+        "description": "Grilled beef, cheddar, lettuce and house sauce.",
+        "image": "img/food-burger/Classic-beef-burger.webp",
+        "category": "burgers",
+        "available": false
+    },
+    {
+        "name": "Cheeseburger",
+        "price": 13,
+        "description": "Grilled beef, melted cheddar, pickles, ketchup and mustard.",
+        "image": "img/food-burger/classic-cheeseburger.webp",
+        "category": "burgers",
+        "available": true
+    },
+    {
+        "name": "Double Cheeseburger",
+        "price": 17,
+        "description": "Two beef patties, double cheddar, pickles and house sauce.",
+        "image": "img/food-burger/Double-Cheeseburger.webp",
+        "category": "burgers",
+        "available": true
+    },
+    {
+        "name": "Mushroom Swiss Burger",
+        "price": 15,
+        "description": "Grilled beef, sautéed mushrooms, Swiss cheese and garlic mayo.",
+        "image": "img/food-burger/Mushroom-Swiss-Burger.webp",
+        "category": "burgers",
+        "available": true
+    },
+    {
+        "name": "BBQ Beef Burger",
+        "price": 14,
+        "description": "Grilled beef, cheddar, crispy onions and smoky BBQ sauce.",
+        "image": "img/food-burger/BBQ-Beef-Burger.webp",
+        "category": "burgers",
+        "available": true
+    },
+    {
+        "name": "Crispy Chicken Burger",
+        "price": 11,
+        "description": "Crispy chicken, lettuce, pickles and creamy mayo.",
+        "image": "img/food-burger/Crispy-Chicken-Burger.webp",
+        "category": "burgers",
+        "available": true
+    },
+    {
+        "name": "Spicy Chicken Burger",
+        "price": 12,
+        "description": "Crispy chicken, jalapeños, lettuce and spicy mayo.",
+        "image": "img/food-burger/Spicy-Chicken-Burger.webp",
+        "category": "burgers",
+        "available": true
+    },
+    {
+        "name": "Grilled Chicken Burger",
+        "price": 12,
+        "description": "Grilled chicken, lettuce, tomato and herb mayo.",
+        "image": "img/food-burger/Grilled-Chicken-Burger.webp",
+        "category": "burgers",
+        "available": true
+    },
+    {
+        "name": "Zinger Burger",
+        "price": 12,
+        "description": "Spicy crispy chicken, cheddar, crunchy slaw and mayo.",
+        "image": "img/food-burger/Zinger-Burger.webp",
+        "category": "burgers",
+        "available": true
+    },
+    {
+        "name": "Veggie Burger",
+        "price": 10,
+        "description": "Chickpea patty, lettuce, tomato, pickles and tahini sauce.",
+        "image": "img/food-burger/Veggie-Burger.webp",
+        "category": "burgers",
+        "available": true
+    },
+    {
+        "name": "Margherita Pizza",
+        "price": 10,
+        "description": "Tomato sauce, mozzarella, fresh basil and olive oil.",
+        "image": "img/food-pizza/Margherita-Pizza.webp",
+        "category": "pizza",
+        "available": false
+    },
+    {
+        "name": "Pepperoni Pizza",
+        "price": 13,
+        "description": "Tomato sauce, mozzarella and beef pepperoni.",
+        "image": "img/food-pizza/Pepperoni-Pizza.webp",
+        "category": "pizza",
+        "available": true
+    },
+    {
+        "name": "Four Cheese Pizza",
+        "price": 14,
+        "description": "Mozzarella, cheddar, parmesan and blue cheese.",
+        "image": "img/food-pizza/Four-Cheese-Pizza.webp",
+        "category": "pizza",
+        "available": true
+    },
+    {
+        "name": "Mushroom Pizza",
+        "price": 12,
+        "description": "Tomato sauce, mozzarella, mushrooms and oregano.",
+        "image": "img/food-pizza/Mushroom-Pizza.webp",
+        "category": "pizza",
+        "available": true
+    },
+    {
+        "name": "BBQ Chicken Pizza",
+        "price": 14,
+        "description": "BBQ sauce, grilled chicken, mozzarella and red onions.",
+        "image": "img/food-pizza/BBQ-Chicken-Pizza.webp",
+        "category": "pizza",
+        "available": true
+    },
+    {
+        "name": "Buffalo Chicken Pizza",
+        "price": 14,
+        "description": "Buffalo chicken, mozzarella and a creamy ranch drizzle.",
+        "image": "img/food-pizza/Buffalo-Chicken-Pizza.webp",
+        "category": "pizza",
+        "available": true
+    },
+    {
+        "name": "Vegetarian Pizza",
+        "price": 12,
+        "description": "Tomato sauce, mozzarella, peppers, mushrooms, onions and olives.",
+        "image": "img/food-pizza/Vegetarian-Pizza.webp",
+        "category": "pizza",
+        "available": true
+    },
+    {
+        "name": "Hawaiian Pizza",
+        "price": 13,
+        "description": "Tomato sauce, mozzarella, smoked turkey and pineapple.",
+        "image": "img/food-pizza/Hawaiian-Pizza.webp",
+        "category": "pizza",
+        "available": true
+    },
+    {
+        "name": "Meat Lovers Pizza",
+        "price": 16,
+        "description": "Tomato sauce, mozzarella, beef pepperoni, beef sausage and smoked turkey.",
+        "image": "img/food-pizza/Meat-Lovers-Pizza.webp",
+        "category": "pizza",
+        "available": true
+    },
+    {
+        "name": "Truffle Mushroom Pizza",
+        "price": 16,
+        "description": "Creamy white sauce, mozzarella, mushrooms and truffle oil.",
+        "image": "img/food-pizza/Truffle-Mushroom-Pizza.webp",
+        "category": "pizza",
+        "available": true
+    },
+    {
+        "name": "Fresh Lemonade",
+        "price": 4,
+        "description": "Fresh lemon juice served chilled over ice.",
+        "image": "img/food-drinks/Fresh-Lemonade.webp",
+        "category": "drinks",
+        "available": true
+    },
+    {
+        "name": "Mint Lemonade",
+        "price": 5,
+        "description": "Fresh lemon juice blended with mint and ice.",
+        "image": "img/food-drinks/Mint-Lemonade.webp",
+        "category": "drinks",
+        "available": false
+    },
+    {
+        "name": "Fresh Orange Juice",
+        "price": 5,
+        "description": "Freshly squeezed orange juice served chilled.",
+        "image": "img/food-drinks/Fresh-Orange-Juice.webp",
+        "category": "drinks",
+        "available": true
+    },
+    {
+        "name": "Strawberry Lemonade",
+        "price": 5,
+        "description": "Fresh lemonade mixed with sweet strawberry purée.",
+        "image": "img/food-drinks/Strawberry-Lemonade.webp",
+        "category": "drinks",
+        "available": true
+    },
+    {
+        "name": "Iced Tea",
+        "price": 4,
+        "description": "Chilled black tea with lemon, served over ice.",
+        "image": "img/food-drinks/Iced-Tea.webp",
+        "category": "drinks",
+        "available": true
+    },
+    {
+        "name": "Iced Coffee",
+        "price": 5,
+        "description": "Espresso with cold milk, served over ice.",
+        "image": "img/food-drinks/Iced-Coffee.webp",
+        "category": "drinks",
+        "available": true
+    },
+    {
+        "name": "Chocolate Milkshake",
+        "price": 6,
+        "description": "Chocolate ice cream blended with milk and chocolate sauce.",
+        "image": "img/food-drinks/Chocolate-Milkshake.webp",
+        "category": "drinks",
+        "available": true
+    },
+    {
+        "name": "Vanilla Milkshake",
+        "price": 6,
+        "description": "Vanilla ice cream blended with milk until smooth.",
+        "image": "img/food-drinks/Vanilla-Milkshake.webp",
+        "category": "drinks",
+        "available": true
+    },
+    {
+        "name": "Strawberry Milkshake",
+        "price": 6,
+        "description": "Strawberry ice cream blended with milk and strawberries.",
+        "image": "img/food-drinks/Strawberry-Milkshake.webp",
+        "category": "drinks",
+        "available": true
+    },
+    {
+        "name": "Mango Smoothie",
+        "price": 6,
+        "description": "Mango blended with yogurt and ice until smooth.",
+        "image": "img/food-drinks/Mango-Smoothie.webp",
+        "category": "drinks",
+        "available": true
+    }
+]

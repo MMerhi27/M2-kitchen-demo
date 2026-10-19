@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M2 Kitchen | Menu</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <a href="#" class="logo"><img src="img/M2/M2 Kitchennoback.png" alt="logo_M2Kitchen"></a>
+
+            <p class="tagline">Freshly made. Simply delicious.</p>
+            <p class="restaurant-info">Beirut <span>-</span> Open until 11 PM</p>
+            <p class="demo-notice">Demo menu — prices and opening hours are for illustration only.</p>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                <input type="search" placeholder="For a dish..." aria-label="Search menu">
+            </div>
+            <div class="categories">
+                <button type="button" class="active"><i class="fa-solid fa-border-all"></i> All</button>
+                <button type="button"><i class="fa-solid fa-burger"></i> Burgers</button>
+                <button type="button"><i class="fa-solid fa-pizza-slice"></i> Pizza</button>
+                <button type="button"><i class="fa-solid fa-martini-glass-citrus"></i> Drinks</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="menu" id="menu">
+            <div class="container">
+                <h1><span>Made</span> to crave</h1>
+                <p>Quality ingredients. Great food. Always a good time.</p>
+                <p class="results-count" id="results-count" aria-live="polite">30 dishes</p>
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <img src="img/food-burger/Classic-beef-burger.png" alt="Classic beef burger.">
+                        <div class="card-content">
+                            <h2>Classic Beef Burger</h2>
+                            <p>Grilled beef, cheddar, lettuce and house sauce.</p>
+                            <span class="price">12$</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><i class="fa-solid fa-location-dot"></i> Beirut, Lebanon</p>
+            <p><i class="fa-regular fa-clock"></i> Open daily · 11 AM - 11 PM</p>
+            <p class="footer-credit">Crafted by Merhi</p>
+        </div>
+    </footer>
+    <dialog class="dish-dialog" id="dish-dialog">
+        <button class="dialog-close" type="button" aria-label="Close dish details"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+
+        <img id="dialog-image" alt="">
+
+        <div class="dialog-content">
+            <h2 id="dialog-title"></h2>
+            <p id="dialog-description"></p>
+            <span id="dialog-price"></span>
+        </div>
+    </dialog>
+    <script src="js/main.js"></script>
+</body>
+</html>

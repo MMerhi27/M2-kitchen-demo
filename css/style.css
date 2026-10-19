@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1B1F22;
+    color: #F5F1E8;
+    font-family: Inter, sans-serif;
+}
+:root {
+    --main-color: #E8C99B; /* Main Color */
+    --p-color: #B8B8B8; /* Paragraph Color */
+    --bg-color: #C7C7C7; /* Secondare Paragraph Color */
+    --white-color: #fff; /* White color*/
+    --black-color: #131416c4; /* Black color*/
+    --border-color: #3A3F44; /* Border color*/
+    --button-hover-bg: #2D3338; /* button hover color*/
+}
+.container{
+    width: 80%;
+    margin: auto;
+    max-width: 1500px;
+} 
+
+section{
+    padding: 80px 0;
+    scroll-margin-top: 100px;
+}
+
+/* color of website tag */
+h1,h2,h3,h4,h5,h6{
+    color: var(--white-color);
+    font-family: "Dm Sans", sans-serif;
+} 
+
+span{
+    color: var(--main-color);
+}
+p{
+    color: var(--p-color);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Start Header */
+header {
+    padding: 32px 0 24px;
+    text-align: center;
+}
+
+header .logo {
+    display: block;
+    width: 280px;
+    max-width: 100%;
+    margin: 0 auto 12px;
+}
+
+header .logo img {
+    width: 100%;
+}
+
+header .tagline {
+    color: #F5F1E8;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+header .restaurant-info {
+    margin-top: 8px;
+    color: #B8B8B8;
+    font-size: 12px;
+}
+/* End Header */
+
+/* Start Search-box */
+.search-box {
+    width: 480px;
+    margin: 24px auto 0;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #252A2E;
+    border: 1px solid var(--border-color);
+    border-radius: 27px;
+}
+
+.search-box i{
+    color: #B8B8B8;
+}
+
+.search-box input{
+    flex: 1;
+    min-width: 0;
+    border: none;
+    background: transparent;
+    color: #F5F1E8;
+    font: inherit;
+}
+
+.search-box input::placeholder {
+    color: #B8B8B8;
+}
+/* End Search-box  */
+
+/* Start categories */
+.categories{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 17px;
+}
+.categories button{
+    width: 111px;
+    padding: 8px;
+    background: transparent;
+    color: var(--main-color);
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.categories button:hover{
+    background-color: var(--button-hover-bg);
+}
+.categories button.active {
+    background-color: var(--main-color);
+    color: #1B1F22;
+    border-color: var(--main-color);
+
+}
+.categories button.active:hover{
+    background-color: #e8c99bde;
+}
+/* End categories */
+
+/* Start menu */
+.menu{
+    padding: 24px 0 40px;
+}
+.menu h1{
+    font-size: 28px;
+}
+.menu p{
+    margin-top: 8px;
+    line-height: 1.6;
+}
+.menu .results-count{
+    font-size: 13px;
+    color: var(--main-color);
+    margin-top: 16px;
+}
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 24px;
+}
+.menu-card{
+    background-color: #252A2E;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.menu-card img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h2{
+    font-size: 20px;
+}
+.card-content p{
+    font-size: 14px;
+}
+.card-content .price{
+    display: inline-block;
+    margin-top: 13px;
+    padding: 6px 12px;
+    background-color: var(--main-color);
+    color: #1B1F22;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.card-content .price:hover{
+    background-color: #e8c99bc1 ;
+}
+/* End menu */
+
+/* Start footer */
+footer{
+    padding: 24px 0;
+    border-top: 1px solid var(--border-color);
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+footer p{
+    font-size: 13px;
+}
+footer .footer-credit{
+    color: var(--main-color);
+}
+footer i{
+    color: var(--main-color);
+}
+/* Start dialog */
+.dish-dialog{
+    width: 480px;
+    max-width: calc(100% - 32px);
+    max-height: 90vh;
+    overflow-y: auto;
+    margin: auto;
+    background: #252A2E;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 0;
+    position: fixed;
+}
+.dialog-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 44px;
+    height: 44px;
+    background-color: #1B1F22;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+}
+.dialog-close:hover {
+    background-color: var(--button-hover-bg);
+}
+.dish-dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+#dialog-image{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+.dialog-content{
+    padding: 20px;
+}
+#dialog-title{
+    font-size: 24px;
+}
+#dialog-description{
+    margin-top: 10px;
+    line-height: 1.6;
+}
+#dialog-price{
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 20px;
+}
+/* End dialog */
+.menu-card {
+    cursor: pointer;
+}
+.menu-card:focus-visible,
+.dialog-close:focus-visible {
+    outline: 2px solid var(--main-color);
+    outline-offset: 4px;
+}
+/* Availability labels on cards and inside the dialog */
+.menu .dish-status,
+.dish-dialog .dish-status {
+    margin-top: 10px;
+    color: #FFB4AB;
+    font-size: 13px;
+    font-weight: 600;
+}
+.demo-notice {
+    margin-top: 10px;
+    color: var(--p-color);
+    font-size: 12px;
+    line-height: 1.5;
+}
