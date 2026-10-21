@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Classic Beef Burger",
         "price": 12,
         "description": "Grilled beef, cheddar, lettuce and house sauce.",
@@ -8,6 +9,7 @@
         "available": false
     },
     {
+        "id": 2,
         "name": "Cheeseburger",
         "price": 13,
         "description": "Grilled beef, melted cheddar, pickles, ketchup and mustard.",
@@ -16,6 +18,7 @@
         "available": true
     },
     {
+        "id": 3,
         "name": "Double Cheeseburger",
         "price": 17,
         "description": "Two beef patties, double cheddar, pickles and house sauce.",
@@ -24,6 +27,7 @@
         "available": true
     },
     {
+        "id": 4,
         "name": "Mushroom Swiss Burger",
         "price": 15,
         "description": "Grilled beef, sautéed mushrooms, Swiss cheese and garlic mayo.",
@@ -32,6 +36,7 @@
         "available": true
     },
     {
+        "id": 5,
         "name": "BBQ Beef Burger",
         "price": 14,
         "description": "Grilled beef, cheddar, crispy onions and smoky BBQ sauce.",
@@ -40,6 +45,7 @@
         "available": true
     },
     {
+        "id": 6,
         "name": "Crispy Chicken Burger",
         "price": 11,
         "description": "Crispy chicken, lettuce, pickles and creamy mayo.",
@@ -48,6 +54,7 @@
         "available": true
     },
     {
+        "id": 7,
         "name": "Spicy Chicken Burger",
         "price": 12,
         "description": "Crispy chicken, jalapeños, lettuce and spicy mayo.",
@@ -56,6 +63,7 @@
         "available": true
     },
     {
+        "id": 8,
         "name": "Grilled Chicken Burger",
         "price": 12,
         "description": "Grilled chicken, lettuce, tomato and herb mayo.",
@@ -64,6 +72,7 @@
         "available": true
     },
     {
+        "id": 9,
         "name": "Zinger Burger",
         "price": 12,
         "description": "Spicy crispy chicken, cheddar, crunchy slaw and mayo.",
@@ -72,6 +81,7 @@
         "available": true
     },
     {
+        "id": 10,
         "name": "Veggie Burger",
         "price": 10,
         "description": "Chickpea patty, lettuce, tomato, pickles and tahini sauce.",
@@ -80,6 +90,7 @@
         "available": true
     },
     {
+        "id": 11,
         "name": "Margherita Pizza",
         "price": 10,
         "description": "Tomato sauce, mozzarella, fresh basil and olive oil.",
@@ -88,6 +99,7 @@
         "available": false
     },
     {
+        "id": 12,
         "name": "Pepperoni Pizza",
         "price": 13,
         "description": "Tomato sauce, mozzarella and beef pepperoni.",
@@ -96,6 +108,7 @@
         "available": true
     },
     {
+        "id": 13,
         "name": "Four Cheese Pizza",
         "price": 14,
         "description": "Mozzarella, cheddar, parmesan and blue cheese.",
@@ -104,6 +117,7 @@
         "available": true
     },
     {
+        "id": 14,
         "name": "Mushroom Pizza",
         "price": 12,
         "description": "Tomato sauce, mozzarella, mushrooms and oregano.",
@@ -112,6 +126,7 @@
         "available": true
     },
     {
+        "id": 15,
         "name": "BBQ Chicken Pizza",
         "price": 14,
         "description": "BBQ sauce, grilled chicken, mozzarella and red onions.",
@@ -120,6 +135,7 @@
         "available": true
     },
     {
+        "id": 16,
         "name": "Buffalo Chicken Pizza",
         "price": 14,
         "description": "Buffalo chicken, mozzarella and a creamy ranch drizzle.",
@@ -128,6 +144,7 @@
         "available": true
     },
     {
+        "id": 17,
         "name": "Vegetarian Pizza",
         "price": 12,
         "description": "Tomato sauce, mozzarella, peppers, mushrooms, onions and olives.",
@@ -136,6 +153,7 @@
         "available": true
     },
     {
+        "id": 18,
         "name": "Hawaiian Pizza",
         "price": 13,
         "description": "Tomato sauce, mozzarella, smoked turkey and pineapple.",
@@ -144,6 +162,7 @@
         "available": true
     },
     {
+        "id": 19,
         "name": "Meat Lovers Pizza",
         "price": 16,
         "description": "Tomato sauce, mozzarella, beef pepperoni, beef sausage and smoked turkey.",
@@ -152,6 +171,7 @@
         "available": true
     },
     {
+        "id": 20,
         "name": "Truffle Mushroom Pizza",
         "price": 16,
         "description": "Creamy white sauce, mozzarella, mushrooms and truffle oil.",
@@ -160,6 +180,7 @@
         "available": true
     },
     {
+        "id": 21,
         "name": "Fresh Lemonade",
         "price": 4,
         "description": "Fresh lemon juice served chilled over ice.",
@@ -168,6 +189,7 @@
         "available": true
     },
     {
+        "id": 22,
         "name": "Mint Lemonade",
         "price": 5,
         "description": "Fresh lemon juice blended with mint and ice.",
@@ -176,6 +198,7 @@
         "available": false
     },
     {
+        "id": 23,
         "name": "Fresh Orange Juice",
         "price": 5,
         "description": "Freshly squeezed orange juice served chilled.",
@@ -184,6 +207,7 @@
         "available": true
     },
     {
+        "id": 24,
         "name": "Strawberry Lemonade",
         "price": 5,
         "description": "Fresh lemonade mixed with sweet strawberry purée.",
@@ -192,6 +216,7 @@
         "available": true
     },
     {
+        "id": 25,
         "name": "Iced Tea",
         "price": 4,
         "description": "Chilled black tea with lemon, served over ice.",
@@ -200,6 +225,7 @@
         "available": true
     },
     {
+        "id": 26,
         "name": "Iced Coffee",
         "price": 5,
         "description": "Espresso with cold milk, served over ice.",
@@ -208,6 +234,7 @@
         "available": true
     },
     {
+        "id": 27,
         "name": "Chocolate Milkshake",
         "price": 6,
         "description": "Chocolate ice cream blended with milk and chocolate sauce.",
@@ -216,6 +243,7 @@
         "available": true
     },
     {
+        "id": 28,
         "name": "Vanilla Milkshake",
         "price": 6,
         "description": "Vanilla ice cream blended with milk until smooth.",
@@ -224,6 +252,7 @@
         "available": true
     },
     {
+        "id": 29,
         "name": "Strawberry Milkshake",
         "price": 6,
         "description": "Strawberry ice cream blended with milk and strawberries.",
@@ -232,6 +261,7 @@
         "available": true
     },
     {
+        "id": 30,
         "name": "Mango Smoothie",
         "price": 6,
         "description": "Mango blended with yogurt and ice until smooth.",

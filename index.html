@@ -32,25 +32,23 @@
         </div>
     </header>
 
-    <main>
-        <section class="menu" id="menu">
-            <div class="container">
-                <h1><span>Made</span> to crave</h1>
-                <p>Quality ingredients. Great food. Always a good time.</p>
-                <p class="results-count" id="results-count" aria-live="polite">30 dishes</p>
-                <div class="menu-grid">
-                    <article class="menu-card">
-                        <img src="img/food-burger/Classic-beef-burger.png" alt="Classic beef burger.">
-                        <div class="card-content">
-                            <h2>Classic Beef Burger</h2>
-                            <p>Grilled beef, cheddar, lettuce and house sauce.</p>
-                            <span class="price">12$</span>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-    </main>
+    <button type="button" class="cart-toggle" id="cart-toggle">
+        <i class="fa-solid fa-basket-shopping" aria-hidden="true"></i>
+        View order
+        <span id="cart-count">0</span>
+    </button>
+
+<main>
+    <section class="menu" id="menu">
+        <div class="container">
+            <h1><span>Made</span> to crave</h1>
+            <p>Quality ingredients. Great food. Always a good time.</p>
+            <p class="results-count" id="results-count" aria-live="polite">30 dishes</p>
+            
+            <div class="menu-grid"></div>
+        </div>
+    </section>
+</main>
 
     <footer>
         <div class="container">
@@ -68,8 +66,52 @@
             <h2 id="dialog-title"></h2>
             <p id="dialog-description"></p>
             <span id="dialog-price"></span>
+
+            <button type="button" class="add-to-order" id="dialog-add">
+                <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                Add to order
+            </button>
+            <p id="cart-feedback" role="status"></p>
         </div>
     </dialog>
+
+    <dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title">
+        <button type="button" class="cart-close" id="cart-close" aria-label="Close order">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+        <h2 id="cart-title">Your order</h2>
+        <div class="cart-items" id="cart-items">
+            <p>Your order is empty.</p>
+        </div>
+        <p class="cart-subtotal">Subtotal: <span id="cart-total">$0.00</span></p>
+
+        <div class="order-details">
+            <label for="customer-name">Your name</label>
+            <input type="text" id="customer-name" autocomplete="name" maxlength="80" required>
+
+            <label for="order-type">Order type</label>
+            <select id="order-type">
+                <option value="pickup">Pickup</option>
+                <option value="delivery">Delivery</option>
+            </select>
+
+            <div id="delivery-fields" hidden>
+                <label for="customer-address">Delivery address</label>
+                <textarea id="customer-address" autocomplete="street-address" maxlength="300" rows="3"></textarea>
+            </div>
+
+            <label for="order-notes">Notes (optional)</label>
+            <textarea id="order-notes" rows="3" maxlength="500" placeholder="Example: No onions, please."></textarea>
+        </div>
+
+        <button type="button" class="add-to-order" id="send-order">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            Continue to WhatsApp
+        </button>
+
+        <p id="order-feedback" role="status"></p>
+    </dialog>
+
     <script src="js/main.js"></script>
 </body>
 </html>

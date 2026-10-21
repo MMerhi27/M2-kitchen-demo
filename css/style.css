@@ -294,3 +294,245 @@ footer i{
     font-size: 12px;
     line-height: 1.5;
 }
+
+/* Start Floating order button*/
+.cart-toggle {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 100;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 14px 20px;
+    background-color: var(--main-color);
+    color: #1B1F22;
+    border: none;
+    border-radius: 50px;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cart-toggle:hover {
+    background-color: #F0D6B0;
+}
+
+.cart-toggle:focus-visible {
+    outline: 2px solid var(--white-color);
+    outline-offset: 4px;
+}
+
+/* Number of items in the order */
+#cart-count {
+    display: grid;
+    place-items: center;
+    min-width: 26px;
+    height: 26px;
+    padding: 0 6px;
+    background-color: #1B1F22;
+    color: var(--main-color);
+    border-radius: 50px;
+    font-size: 13px;
+}
+/* End Floating order button */
+
+/* Start Order dialog */
+.cart-dialog {
+    position: fixed;
+    margin: auto;
+    width: 520px;
+    max-width: calc(100% - 32px);
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 24px;
+    background-color: #252A2E;
+    color: #F5F1E8;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+}
+
+.cart-dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.cart-dialog h2 {
+    padding-right: 52px;
+    font-size: 24px;
+}
+
+/* Close button */
+.cart-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 44px;
+    height: 44px;
+    background-color: #1B1F22;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.cart-close:hover {
+    background-color: var(--button-hover-bg);
+}
+
+.cart-close:focus-visible {
+    outline: 2px solid var(--main-color);
+    outline-offset: 3px;
+}
+
+/* Selected dishes */
+.cart-items {
+    margin-top: 24px;
+}
+
+/* Order subtotal */
+.cart-subtotal {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-color);
+    color: #F5F1E8;
+    font-weight: 600;
+}
+
+#cart-total {
+    white-space: nowrap;
+}
+/* End Order dialog */
+
+/* Start Add dish button */
+.add-to-order {
+    display: block;
+    width: 100%;
+    min-height: 44px;
+    margin-top: 20px;
+    padding: 12px 16px;
+    background-color: var(--main-color);
+    color: #1B1F22;
+    border: none;
+    border-radius: 12px;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add-to-order:hover:not(:disabled) {
+    background-color: #F0D6B0;
+}
+
+.add-to-order:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#cart-feedback {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* Order items */
+.cart-item {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.cart-item h3 {
+    font-size: 16px;
+    overflow-wrap: anywhere;
+}
+
+.cart-item p {
+    margin-top: 8px;
+}
+
+.cart-item-controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.cart-item-controls button {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 8px 12px;
+    background-color: #1B1F22;
+    color: #F5F1E8;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.cart-item-controls button:hover {
+    background-color: var(--button-hover-bg);
+}
+
+.cart-item-controls .remove-item {
+    margin-left: auto;
+    color: #FFB4AB;
+}
+
+.add-to-order:focus-visible,
+.cart-item-controls button:focus-visible {
+    outline: 2px solid var(--main-color);
+    outline-offset: 3px;
+}
+
+/* Leave room for the floating order button */
+footer {
+    padding-bottom: 100px;
+}
+
+/* Customer order details */
+.order-details {
+    display: grid;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.order-details label {
+    color: #F5F1E8;
+    font-size: 14px;
+}
+
+.order-details input,
+.order-details select,
+.order-details textarea {
+    width: 100%;
+    min-width: 0;
+    padding: 12px;
+    background-color: #1B1F22;
+    color: #F5F1E8;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    font: inherit;
+    font-size: 16px;
+}
+
+.order-details textarea {
+    resize: vertical;
+}
+
+.order-details input:focus-visible,
+.order-details select:focus-visible,
+.order-details textarea:focus-visible {
+    outline: 2px solid var(--main-color);
+    outline-offset: 2px;
+}
+
+#delivery-fields label {
+    display: block;
+    margin-bottom: 10px;
+}
+/* End Start Add dish button */
