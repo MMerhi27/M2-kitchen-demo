@@ -32,7 +32,7 @@ const sendOrderButton = document.querySelector("#send-order");
 const orderFeedback = document.querySelector("#order-feedback");
 
 // Restaurant WhatsApp number
-const restaurantPhone = "96172316213";
+const restaurantPhone = "96171316213";
 
 // Cart storage settings
 const CART_STORAGE_KEY = "m2-kitchen-cart";
